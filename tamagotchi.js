@@ -71,7 +71,7 @@ cat.meow = function () {
 };
 
 cat.destroyFurniture = function () {
-    if (cat.houseCondition > 0) {
+    if (cat.houseCondition >= 0) {
         cat.houseCondition -= 25;
         console.log("MUAHAHAHAHA! TAKE THAT FURNITURE!");
         cat.bored = false;
